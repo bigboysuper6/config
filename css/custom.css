@@ -1,0 +1,35 @@
+:root {
+    --custom-background-color: rgb(35, 35, 35) !important;
+    --custom-opacity: 0 !important;
+    --custom-blur: blur(300px) !important;
+}
+.monaco-tree-sticky-container,
+.monaco-list.list_id_1
+    .monaco-scrollable-element
+    .monaco-tree-sticky-container
+    .monaco-tree-sticky-row,
+.monaco-editor .sticky-widget {
+    display: none !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title {
+    background-color: transparent !important;
+}
+
+.scm-view .scm-editor {
+    background-color: transparent !important;
+}
+
+button,
+div[role="button"] {
+    background-color: transparent !important;
+    &:hover {
+        background-color: var(--vscode-toolbar-hoverBackground) !important;
+    }
+}
+
+.monaco-editor .vertical {
+    width: 0px !important;
+}
+
+/* var(--vscode-toolbar-hoverBackground) */
