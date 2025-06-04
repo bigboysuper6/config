@@ -1,0 +1,25 @@
+.monaco-tree-sticky-container,
+.monaco-list.list_id_1
+    .monaco-scrollable-element
+    .monaco-tree-sticky-container
+    .monaco-tree-sticky-row,
+.monaco-editor .sticky-widget {
+    display: none !important;
+}
+
+.monaco-editor .vertical {
+    width: 0px !important;
+}
+
+.monaco-list .monaco-list-row.selected{
+	background-color:var(--vscode-settings-focusedRowBackground) !important;
+}
+
+.quick-input-widget{
+    background: rgba(30, 30, 30, 0.9) !important;
+    backdrop-filter: blur(300px) saturate(1.0) !important;
+}
+
+.monaco-list-row.focused{
+    background: rgba(255, 255, 255, 0.06) !important;	
+}
