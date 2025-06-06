@@ -8,13 +8,15 @@
 }
 
 .monaco-editor .vertical {
-    width: 0px !important;
+    width: 3px !important;
 }
 
 .monaco-list .monaco-list-row.selected{
 	background-color:var(--vscode-settings-focusedRowBackground) !important;
 }
 
+.monaco-editor .monaco-hover,
+.monaco-editor .suggest-widget>.tree,
 .quick-input-widget{
     background: rgba(30, 30, 30, 0.9) !important;
     backdrop-filter: blur(300px) saturate(1.0) !important;
